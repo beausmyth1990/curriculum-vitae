@@ -1,31 +1,38 @@
+:root{
+  --cv-color: black;
+  --cv-color-secondary: gray;
+
+  --cv-background-color: white;
+  --cv-background-color-secondary: wheat;
+
+  --cv-font-size: 20px;
+  --cv-font-family: monospace;
+
+  --cv-border-color-secondary: lightcyan;
+}
+
+html[theme='night']{
+  --cv-color: white;
+  --cv-color-secondary: wheat;
+
+  --cv-background-color: black;
+  --cv-background-color-secondary: black;
+
+  --cv-border-color-secondary: darkcyan;
+}
+
 html{
-  background: black;
-  color: white;
-  font-family: monospace;
-  font-size: 20px;
+  background: var(--cv-background-color);
+  color: var(--cv-color);
+  font-family: var(--font-family);
+  font-size: var(--cv-font-size);
   line-height: 2rem;
 }
 
-table{
-  width: 100%;
-  margin: auto;
-  text-align: left;
-  border-bottom: 1px solid darkcyan;
-  margin-bottom: 2rem;
-  padding-bottom: 2rem;
+#work-history{
+  display: flex;
+  flex-direction: row; 
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
-th{
-  font-size: 25px;
-  font-weight: 800;
-  white-space: nowrap;
-}
-
-td, th{
-  padding: 1rem;
-}
-
-a{
-  text-decoration: none;
-  color: lightblue;
-}
