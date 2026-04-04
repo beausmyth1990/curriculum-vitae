@@ -7,6 +7,9 @@ customElements.define('cv-switch', class extends HTMLElement{
         <div state='off' id='switcher' style='width:10px;height:10px; border-radius: 50%;'></div>
       </div>
       <style>
+         :host{
+           display: inline-block;
+         }
          #switch::hover{
            cursor: pointer;
          }
@@ -15,7 +18,7 @@ customElements.define('cv-switch', class extends HTMLElement{
            background-color: black; 
          }
          #switcher[state='on']{
-           background-color: yellow; 
+           background-color: darkcyan; 
          }
       </style>
     `;
