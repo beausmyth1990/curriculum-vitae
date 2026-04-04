@@ -18,10 +18,10 @@ table{
 th{
   font-size: 25px;
   font-weight: 800;
+  white-space: nowrap;
 }
 
 td, th{
-  white-space: nowrap;
   padding: 1rem;
 }
 
