@@ -17,10 +17,11 @@ customElements.define('cv-card', class extends HTMLElement{
        <style>
           :host{
               color: var(--cv-color-secondary);
-              background: var(--cv-background-color-secondary);
               flex-grow: 1;
-              border: 1px solid;
-              border-color: var(--cv-border-color-secondary)
+              padding: 1.25rem;
+              margin: 1.25rem;
+              box-shadow: 0px 0px 5px lightgray;
+              border-radius: 10px;
           }
        </style>
     `;

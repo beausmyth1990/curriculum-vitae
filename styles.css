@@ -24,7 +24,7 @@ html[theme='night']{
 html{
   background: var(--cv-background-color);
   color: var(--cv-color);
-  font-family: var(--font-family);
+  font-family: var(--cv-font-family);
   font-size: var(--cv-font-size);
   line-height: 2rem;
 }
@@ -44,3 +44,8 @@ img.logo{
 ul{
   list-style:none;
 }
+
+cv-card {
+  display: block;
+}
+
