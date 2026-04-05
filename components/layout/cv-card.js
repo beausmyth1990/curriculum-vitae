@@ -18,8 +18,8 @@ customElements.define('cv-card', class extends HTMLElement{
           :host{
               color: var(--cv-color-secondary);
               flex-grow: 1;
-              padding: 1.25rem;
-              margin: 1.25rem;
+              padding: 1rem;
+              margin: 1rem;
               box-shadow: 0px 0px 5px lightgray;
               border-radius: 10px;
           }
