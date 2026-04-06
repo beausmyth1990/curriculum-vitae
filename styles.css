@@ -5,7 +5,6 @@
   --cv-background-color: white;
   --cv-background-color-secondary: wheat;
 
-  --cv-font-size: 20px;
   --cv-font-family: monospace;
 
   --cv-border-color-secondary: lightcyan;
@@ -25,14 +24,6 @@ html{
   background: var(--cv-background-color);
   color: var(--cv-color);
   font-family: var(--cv-font-family);
-  font-size: var(--cv-font-size);
-  line-height: 2rem;
-}
-
-#work-history{
-  display: flex;
-  flex-direction: row; 
-  flex-wrap: wrap;
 }
 
 img.logo{
@@ -40,11 +31,38 @@ img.logo{
   height: 80px;
 }
 
-ul{
-  list-style:none;
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
-cv-card {
-  display: block;
+#skills {
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 
+#links {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+#work-history{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+#education {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#education input{
+  flex-grow: 1;
+}
+
+#references {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
