@@ -1,5 +1,6 @@
 :root{
 }
+
 *{
   box-sizing: border-box;
 }
@@ -7,8 +8,12 @@
 html{
   font-family: monospace;
   background: black;
-  color: white;
+  color: lightgreen;
   font-size: 16px;
+}
+
+article, header {
+  padding: 1rem;
 }
 
 h1,h2,h3,h4,h5 {
@@ -32,6 +37,13 @@ label {
 span {
   padding: 1rem;
   margin: .5rem;
+  border: 1px solid lightgreen;
+}
+
+fieldset span{
+  padding: unset;
+  margin: unset;
+  border: none;
 }
 
 input {
@@ -40,6 +52,11 @@ input {
   border: none;
 }
 
+fieldset{
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
 #skills {
   display: grid;
   grid-template-columns: auto auto auto;
