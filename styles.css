@@ -8,7 +8,7 @@
 html{
   font-family: monospace;
   background: black;
-  color: lightgreen;
+  color: #adffab;
   font-size: 16px;
 }
 
@@ -37,7 +37,7 @@ label {
 span {
   padding: 1rem;
   margin: .5rem;
-  border: 1px solid lightgreen;
+  border: 1px solid #112b11;
 }
 
 fieldset span{
@@ -57,6 +57,11 @@ fieldset{
   display: flex;
   flex-direction: column;
 }
+
+ul {
+  list-style: circle;
+}
+
 #skills {
   display: grid;
   grid-template-columns: auto auto auto;
