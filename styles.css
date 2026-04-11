@@ -96,3 +96,14 @@ ul {
   }
   
 }
+
+@media screen and (max-width: 720px){
+  #skills{
+    grid-template-columns: auto;
+  }
+  
+  #references{
+    grid-template-columns: auto;
+  }
+  
+}
