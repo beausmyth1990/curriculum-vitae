@@ -78,15 +78,6 @@ ul {
   grid-template-columns: auto auto;
 }
 
-#education {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-#education input {
-  flex-grow: 1;
-}
-
 #references {
   display: grid;
   grid-template-columns: auto auto auto auto;
