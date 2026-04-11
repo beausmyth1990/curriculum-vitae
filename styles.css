@@ -79,3 +79,15 @@ ul {
   display: grid;
   grid-template-columns: auto auto auto auto;
 }
+
+@media (width <= 1080){
+  
+  #work-history{
+    grid-template: auto;
+  }
+  
+  #references{
+    grid-template: auto auto;
+  }
+  
+}
