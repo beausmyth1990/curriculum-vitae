@@ -80,7 +80,7 @@ ul {
   grid-template-columns: auto auto auto auto;
 }
 
-@media (width < 1080px){
+@media screen and (max-width: 1080px){
   
   #work-history{
     grid-template-columns: auto;
