@@ -29,7 +29,8 @@ img.logo{
 span {
   padding: 1rem;
   margin: .5rem;
-  border: 1px solid #112b11;
+  order: 1px solid #215621;
+  background: #0d5f0c40;
 }
 
 fieldset span{
